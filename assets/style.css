@@ -1,0 +1,40 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+body {
+    font-family: 'Robot', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: rebeccapurple;
+    color:powderblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 0 2rem;
+
+    }
+    
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px)  {
+    h1 {
+        display: none;
+    }
+
+    }
